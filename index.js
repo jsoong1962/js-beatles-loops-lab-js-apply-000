@@ -18,6 +18,8 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   var array = [];
-  do {}
-  
+  var i = 0;
+  do {
+    i++}
+  while (number < 15)
 }
