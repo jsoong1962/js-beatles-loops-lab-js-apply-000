@@ -21,5 +21,5 @@ function iLoveTheBeatles(number) {
   var i = 0;
   do {
     i++}
-  while (number < 15)
+  while (i ===)
 }
