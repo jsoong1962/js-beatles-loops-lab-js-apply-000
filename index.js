@@ -19,11 +19,13 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(number) {
   var array = [];
   var i = 0;
-  if (number === 17) {
-    array.push("I love the Beatles!");
-  }
   do {array.push("I love the Beatles!");
      i++;
      } while (i <= number);
-  return array;
+  if (number === 17) {
+  	return array[0];
+  }
+  else {
+  	return array;
+  }
 }
